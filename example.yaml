@@ -1,0 +1,11 @@
+server:
+  rootPath: /*
+  applicationConnectors:
+    - type: http
+      port: 25728
+  adminConnectors:
+    - type: http
+      port: 25729
+
+template: Hello, %s!
+defaultName: Stranger
